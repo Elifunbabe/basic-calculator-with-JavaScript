@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>basic-calculator</title>
+    <link rel="stylesheet" href="basic-calculator.css">
+</head>
+
+<body id="body1">
+    <div id="container">
+        <form method="get" id="form">
+            <div id="calculator">
+                <label>calculator</label>
+            </div>
+            <div id="display"></div>
+            <button type="button" id="percentage" class="white" onclick="percent();">%</button>
+            <button type="button" id="clear" class="white" onclick="switchonoffbutton1();">c</button>
+            <button type="button" id="decimal" class="white" onclick="decimalpoint();">.</button>
+            <button type="button" id="division" class="blue" onclick="divisionbutton();">/</button><br>
+            <button type="button" id="seven" class="white" onclick="buttonseven();">7</button>
+            <button type="button" id="eight" class="white" onclick="buttoneight();">8</button>
+            <button type="button" id="nine" class="white" onclick="buttonnine();">9</button>
+            <button type="button" id="multiply" class="blue" onclick="timesbutton();">x</button><br>
+            <button type="button" id="four" class="white" onclick="buttonfour();">4</button>
+            <button type="button" id="five" class="white" onclick="buttonfive();">5</button>
+            <button type="button" id="six" class="white" onclick="buttonsix();">6</button>
+            <button type="button" id="minus" class="blue" onclick="subtractbutton();">-</button><br>
+            <button type="button" id="one" class="white" onclick="buttonone();">1</button>
+            <button type="button" id="two" class="white" onclick="buttontwo();">2</button>
+            <button type="button" id="three" class="white" onclick="buttonthree();">3</button>
+            <button type="button" id="add" class="blue" onclick="addbutton();">+</button><br>
+            <button type="button" id="switchbutton" class="white" onclick="switchonoffbutton1();"><sup>on</sup>/<sub>off</sub></button>
+            <button type="button" id="zero" class="white" onclick="buttonzero();">0</button>
+            <button type="button" id="doublezero" class="white" onclick="buttondoublezero();">00</button>
+            <button type="button" id="equals" class="orangebutton" onclick="equalsbutton();">=</button>
+            <script src="basic-calculator.js" type = "text/javascript"></script>
+        </form>
+    </div>
+</body>
+</html>
